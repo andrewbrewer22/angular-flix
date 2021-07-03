@@ -10,6 +10,7 @@ import { TitleListComponent } from './title-list/title-list.component';
 import { HeroButtonComponent } from './hero-button/hero-button.component';
 import { ItemComponent } from './item/item.component';
 import { ListToggleComponent } from './list-toggle/list-toggle.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListToggleComponent } from './list-toggle/list-toggle.component';
     TitleListComponent,
     HeroButtonComponent,
     ItemComponent,
-    ListToggleComponent
+    ListToggleComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
